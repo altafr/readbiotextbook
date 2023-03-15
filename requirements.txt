@@ -8,3 +8,4 @@ unstructured
 Wikipedia_API==0.5.8
 pandas
 pymupdf
+chromadb
