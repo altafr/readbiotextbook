@@ -1,4 +1,4 @@
-langchain==0.0.88
+langchain==0.0.106
 openai
 bs4
 faiss-cpu
