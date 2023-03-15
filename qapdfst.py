@@ -58,7 +58,7 @@ def getTopicsByChapter(chapter):
 
 @st.cache_resource
 def ReadBioBookandCreateVectorStore():
-    loader = PyMuPDFLoader("data/biotxtbookIB.pdf")
+    loader = PyMuPDFLoader("biotxtbookIB.pdf")
     doc = loader.load()
     embeddings = OpenAIEmbeddings()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
